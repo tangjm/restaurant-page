@@ -1,0 +1,25 @@
+:root {
+  font-size: 18px;
+}
+body {
+  padding: 1rem;
+}
+
+div#tabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  border: 1px solid black;
+}
+
+div#tabs > div:hover {
+  cursor: pointer;
+}
+
+div#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
